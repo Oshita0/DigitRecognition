@@ -1,0 +1,36 @@
+# Audio data — too large and likely against competition terms
+*.wav
+train_audio/
+test_audio/
+data/
+
+# Model checkpoints — large binary files
+*.pt
+*.pth
+
+# Kaggle working dir outputs
+/kaggle/
+
+# Submissions (optional: remove this line if you want to track them)
+submission.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_metadata
+
+# Env
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
